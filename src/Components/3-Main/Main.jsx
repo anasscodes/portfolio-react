@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./Main.css";
 import { myProjects } from "./myProjects";
+import { AnimatePresence, motion } from "framer-motion";
 
 
 
@@ -49,29 +50,39 @@ const Main = () => {
         </section>
 
         <section className=" flex right-section">
+          
+          <AnimatePresence>
 
-          {arr.map((item)=>{
-            return (
-              <article key={item.imgPath} className="cad">
-            <img width={232} src={item.imgPath} alt="" />
-            <div style={{width: "232px"}} className="box">
-              <h3 className="title">{item.projectTitle}</h3>
-              <p className="sub-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis tempore aliquid sapiente. Rerum, est ab.</p>
-              <div className="flex icons">
-                <div style={{gap: "11px"}} className="flex">
-                  <div className="icon-link"></div>
-                  <div className="icon-github"></div>
+            {arr.map((item)=>{
+              return (
+                <motion.article 
+                layout
+                initial={{transform: "scale(0)"}}
+                animate={{transform: "scale(1)"}}
+                transition={{type: "spring", damping: 8, stiffness: 50}}
+                key={item.imgPath}
+                
+                className="cad">
+              
+              <img width={232} src={item.imgPath} alt="" />
+              <div style={{width: "232px"}} className="box">
+                <h3 className="title">{item.projectTitle}</h3>
+                <p className="sub-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis tempore aliquid sapiente. Rerum, est ab.</p>
+                <div className="flex icons">
+                  <div style={{gap: "11px"}} className="flex">
+                    <div className="icon-link"></div>
+                    <div className="icon-github"></div>
+                  </div>
+                  <a className="link flex" href="">
+                    More 
+                    <span style={{alignSelf: "center"}} className="icon-arrow-right"></span>
+                  </a>
                 </div>
-                <a className="link flex" href="">
-                  More 
-                  <span style={{alignSelf: "center"}} className="icon-arrow-right"></span>
-                </a>
               </div>
-            </div>
-          </article>
-            );
-          })}
-
+            </motion.article>
+              );
+            })}
+          </AnimatePresence>
         </section>
 
       </main>

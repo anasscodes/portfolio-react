@@ -1,4 +1,7 @@
 import './Hero.css'
+import Lottie from 'lottie-react';
+import devAnimation from '../../../src/animation/dev2.json'
+import { motion } from 'framer-motion';
 
 
 
@@ -12,9 +15,14 @@ const Hero = () => {
                 <span className='icon-verified'></span>
             </div>
 
-            <h1 className='title'>Software Developer, Founder, 
+            <motion.h1 
+             initial={{opacity: 0}}
+              animate={{opacity: 1}}
+              transition={{duration: 2}}
+             className='title'>Software Developer, Founder, 
               And Passionate about creating fast.
-            </h1>
+            </motion.h1>
+
             <p className='sub-title'>
             Hello World! I am Anass MouaTani  , Full stack developer.
             and passionate about developing seamless, user-friendly applications with MERN stack. My projects focus on building engaging digital experiences with clean, efficient code and modern design.
@@ -31,7 +39,11 @@ const Hero = () => {
 
         </div>
 
-        <div className='right-section animation '>jbvbb</div>
+        <div className='right-section animation '>
+          {/* https://lottiefiles.com/ */}
+        <Lottie className='lottie'
+           animationData={devAnimation} />
+        </div>
     
     
     </section>
