@@ -5,11 +5,6 @@ import { AnimatePresence, motion } from "framer-motion";
 
 
 
-
-
-
-
-
 const Main = () => {
 
   const [arr , setArr] = useState(myProjects)
@@ -75,7 +70,7 @@ const Main = () => {
                       <div className="icon icon-github"></div>
                      </a>
                   </div>
-                  <a className="link flex" href="" target="_blank">
+                  <a className="link flex" href={item.link} target="_blank">
                     More 
                     <span style={{alignSelf: "center"}} className="icon-arrow-right"></span>
                   </a>
