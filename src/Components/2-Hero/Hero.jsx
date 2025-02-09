@@ -31,12 +31,22 @@ const Hero = () => {
             </p>
 
             <div className="all-icons flex">
-              <div className="icon icon-x"></div>
-              <div className="icon icon-instagram"></div>
-              <div className="icon icon-github"></div>
-              <div className="icon icon-linkedin"></div>
-            </div>
+              <a href="" target="_blank">
+                <div className="icon icon-x"></div>
+              </a>
 
+              <a href="" target="_blank">
+                 <div className="icon icon-instagram"></div> 
+              </a>
+
+              <a href="https://github.com/anasscodes" target="_blank">
+                 <div className="icon icon-github"></div>
+              </a>
+
+              <a href="https://www.linkedin.com/in/anass-mouatani-bb010a33b/" target="_blank">
+                 <div className="icon icon-linkedin"></div>
+              </a>
+            </div>
         </div>
 
         <div className='right-section animation '>

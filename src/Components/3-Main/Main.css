@@ -118,6 +118,10 @@ main section.right-section{
     color: var(--subtitle);
 }
 
+.right-section a{
+    text-decoration: none;
+}
+
 .card , .icon-link:hover , .card , .icon-github:hover{
     font-size: 1.25rem;
     color: var(--icon-hover);

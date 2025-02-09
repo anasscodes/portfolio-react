@@ -55,18 +55,27 @@ section.hero p.sub-title{
     margin-bottom: 32px;
 }
 
-section.hero .all-icons{
+section.hero .all-icons {
     font-size: 1.2rem;
     gap: 1.5rem;
     color: var(--subtitle);
+    
+}
+
+section.hero .icon{
+    color: var(--subtitle);
+    transition: 0.3s;
+}
+
+section.hero a{
+    text-decoration: none;
 }
 
 section.hero .all-icons .icon:hover{
     font-size: 1.3rem;
     cursor: pointer;
     color: var(--icon-hover);
-    transition: 0.3s;
-
+        
 }
 
 

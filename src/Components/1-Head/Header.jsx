@@ -45,16 +45,16 @@ const Header = () => {
             <a href="/">About</a>
           </li>
           <li>
-            <a href="">Articles</a>
+            <a href="#art">Articles</a>
           </li>
           <li>
-            <a href="">Projects</a>
+            <a href="#art">Projects</a>
           </li>
           <li>
-            <a href="">Speaking</a>
+            <a href="#us">Speaking</a>
           </li>
           <li>
-            <a href="">Contact</a>
+            <a href="#us">Contact</a>
           </li>
         </ul>
 

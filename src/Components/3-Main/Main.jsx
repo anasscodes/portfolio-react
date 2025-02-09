@@ -49,7 +49,7 @@ const Main = () => {
 
         </section>
 
-        <section className=" flex right-section">
+        <section id="art" className=" flex right-section">
           
           <AnimatePresence>
 
@@ -67,13 +67,15 @@ const Main = () => {
               <img width={232} src={item.imgPath} alt="" />
               <div style={{width: "232px"}} className="box">
                 <h3 className="title">{item.projectTitle}</h3>
-                <p className="sub-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis tempore aliquid sapiente. Rerum, est ab.</p>
+                <p className="sub-title">{item.proSubTitle}</p>
                 <div className="flex icons">
                   <div style={{gap: "11px"}} className="flex">
                     <div className="icon-link"></div>
-                    <div className="icon-github"></div>
+                    <a href="https://github.com/anasscodes" target="_blank">
+                      <div className="icon icon-github"></div>
+                     </a>
                   </div>
-                  <a className="link flex" href="">
+                  <a className="link flex" href="" target="_blank">
                     More 
                     <span style={{alignSelf: "center"}} className="icon-arrow-right"></span>
                   </a>
