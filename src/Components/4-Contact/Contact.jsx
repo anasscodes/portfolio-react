@@ -19,7 +19,7 @@ const Contact = () => {
         Contact Us
       </h1>
 
-      <p className='sub-title'>Contact us for more information and get notified when i publish something new </p>
+      <p className='sub-title'>Contact Us for more information and get notified when i publish something new </p>
     
 
       <div style={{justifyContent: "space-between"}} className="flex">
