@@ -44,17 +44,17 @@ const Header = () => {
           <li>
             <a href="/">About</a>
           </li>
-          <li>
+          {/* <li>
             <a href="#art">Articles</a>
-          </li>
+          </li> */}
           <li>
             <a href="#art">Projects</a>
           </li>
-          <li>
+          {/* <li>
             <a href="#us">Speaking</a>
-          </li>
+          </li> */}
           <li>
-            <a href="#us">Contact</a>
+            <a href="#us">Contact Us</a>
           </li>
         </ul>
 

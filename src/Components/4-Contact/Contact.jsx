@@ -1,4 +1,5 @@
 import './Contact.css'
+import { useState } from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import Lottie from 'lottie-react';
 import doneAnimation from '../../../src/animation/done.json'
@@ -10,7 +11,18 @@ const Contact = () => {
 
   const [state, handleSubmit] = useForm("xwpvbvkz");
 
+    // State for managing the input values
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
   
+    const handleFormSubmit = (event) => {
+      event.preventDefault(); // Prevent default form submission
+      handleSubmit(event); // Call the Formspree submit handler
+  
+      // Reset form fields after submission
+      setEmail('');
+      setMessage('');
+    };  
 
   return (
     <section id='us' className='contact-us'>
@@ -24,10 +36,13 @@ const Contact = () => {
 
       <div style={{justifyContent: "space-between"}} className="flex">
 
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleFormSubmit}>
           <div>
             <label htmlFor="email">Email Address</label>
-            <input autoComplete='off' required type="email" name='email' id='email' />
+            <input autoComplete='off' required type="email" name='email' id='email' 
+              value={email}
+              onChange={(e) => setEmail(e.target.value)} // Update email state
+            />
             <ValidationError 
               prefix="Email" 
               field="email"
@@ -37,7 +52,10 @@ const Contact = () => {
 
           <div className='flex' style={{marginTop: "24px"}}>
             <label htmlFor="message">Your Message</label>
-            <textarea required name="message" id="message"></textarea>
+            <textarea required name="message" id="message"
+              value={message}
+              onChange={(e) => setMessage(e.target.value)} // Update message state
+            ></textarea>
             <ValidationError 
               prefix="Message" 
               field="message"
