@@ -65,8 +65,10 @@ const Main = () => {
                 <p className="sub-title">{item.proSubTitle}</p>
                 <div className="flex icons">
                   <div style={{gap: "11px"}} className="flex">
-                    <div className="icon-link"></div>
-                    <a href="https://github.com/anasscodes" target="_blank">
+                    <a href={item.link} target="_blank">
+                      <div className="icon-link"></div>
+                     </a>
+                    <a href={item.gitHub} target="_blank">
                       <div className="icon icon-github"></div>
                      </a>
                   </div>

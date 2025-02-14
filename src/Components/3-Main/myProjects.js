@@ -6,7 +6,8 @@ export const myProjects = [
     "Portfolio built with ReactJS and CSS, showcasing responsive designs and interactive, user-friendly web experiences.",
     category: ["react"],
     imgPath: "./images/Screenshot 6.png",
-    link: ""
+    link: "http://portfolio-mtn-6a147.web.app",
+    gitHub: "https://github.com/anasscodes/my-react-vite-app"
   },
   {
     projectTitle: "Travel MTN ",
@@ -14,7 +15,8 @@ export const myProjects = [
     "In site Travel-Mtn Find amazing destinations, travel tips, and easy booking all in one place. Your next adventure starts here!",
     category: ["css"],
     imgPath: "./images/Screenshot 1.png",
-    link: "https://github.com/anasscodes/travelmtn"
+    link: "",
+    gitHub: "https://github.com/anasscodes/travelmtn"
   },
   {
     projectTitle: "Planners ",
@@ -22,7 +24,8 @@ export const myProjects = [
     "Create weddings with seamless planning, coordination and attention to every detail for your perfect day.",
     category: ["js"],
     imgPath: "./images/Screenshot 2.png",
-    link: ""
+    link: "",
+    gitHub: "https://github.com/anasscodes/projet-de-fin-d-tude"
   },
   {
     projectTitle: "PiZza ",
@@ -30,7 +33,8 @@ export const myProjects = [
     "A website specializing in delicious pizza, designed using HTML, CSS, JS, providing a seamless ordering experience.",
     category: ["js"],
     imgPath: "./images/Screenshot 4.png",
-    link: ""
+    link: "",
+    gitHub: "https://github.com/anasscodes/pizza-Italy"
   },
   {
     projectTitle: "CRUDS ",
@@ -38,7 +42,8 @@ export const myProjects = [
     "A simple CRUD app built with HTML, CSS, and JavaScript for easy data management.",
     category: ["js"],
     imgPath: "./images/Screenshot 3.png",
-    link: ""
+    link: "",
+    gitHub: "https://github.com/anasscodes/cruds"
   },
   {
     projectTitle: "Countries",
@@ -46,7 +51,8 @@ export const myProjects = [
     "Interactive website with ReactJS and Bootstrap displaying country flags via a public API.",
     category: ["react"],
     imgPath: "./images/Screenshot 5.png",
-    link: ""
+    link: "",
+    gitHub: "https://github.com/anasscodes/provider-react"
   },
   // {projectTitle: "Node & Express project" , category: ["express"] , imgPath: "h"}
 ];
