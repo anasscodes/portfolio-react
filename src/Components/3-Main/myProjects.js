@@ -6,7 +6,7 @@ export const myProjects = [
     "Portfolio built with ReactJS and CSS, showcasing responsive designs and interactive, user-friendly web experiences.",
     category: ["react"],
     imgPath: "./images/Screenshot 6.png",
-    link: "http://portfolio-mtn-6a147.web.app",
+    link: "https://portfolio-kohl-five-91.vercel.app/",
     gitHub: "https://github.com/anasscodes/my-react-vite-app"
   },
   {
@@ -24,8 +24,8 @@ export const myProjects = [
     "Create weddings with seamless planning, coordination and attention to every detail for your perfect day.",
     category: ["js"],
     imgPath: "./images/Screenshot 2.png",
-    link: "",
-    gitHub: "https://github.com/anasscodes/projet-de-fin-d-tude"
+    link: "https://planners-event.netlify.app/",
+    gitHub: "https://github.com/anasscodes/planners"
   },
   {
     projectTitle: "PiZza ",
@@ -33,8 +33,8 @@ export const myProjects = [
     "A website specializing in delicious pizza, designed using HTML, CSS, JS, providing a seamless ordering experience.",
     category: ["js"],
     imgPath: "./images/Screenshot 4.png",
-    link: "",
-    gitHub: "https://github.com/anasscodes/pizza-Italy"
+    link: "https://pizza-italy-food.netlify.app/#",
+    gitHub: "https://github.com/anasscodes/pizza"
   },
   {
     projectTitle: "CRUDS ",
