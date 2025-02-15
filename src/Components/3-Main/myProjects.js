@@ -42,7 +42,7 @@ export const myProjects = [
     "A simple CRUD app built with HTML, CSS, and JavaScript for easy data management.",
     category: ["js"],
     imgPath: "./images/Screenshot 3.png",
-    link: "",
+    link: "https://anasscodes.github.io/cruds/",
     gitHub: "https://github.com/anasscodes/cruds"
   },
   {
@@ -51,7 +51,7 @@ export const myProjects = [
     "Interactive website with ReactJS and Bootstrap displaying country flags via a public API.",
     category: ["react"],
     imgPath: "./images/Screenshot 5.png",
-    link: "",
+    link: "https://countries-flame-six.vercel.app/",
     gitHub: "https://github.com/anasscodes/provider-react"
   },
   // {projectTitle: "Node & Express project" , category: ["express"] , imgPath: "h"}
