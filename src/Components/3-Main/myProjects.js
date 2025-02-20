@@ -59,16 +59,16 @@ export const myProjects = [
     "PHP handles the logic for these actions, while MySQL stores and retrieves the data. It forms the foundation for dynamic web apps",
     category: ["express"] , 
     imgPath: "./images/Screenshot php2.png",
-    link: "",
-    gitHub: ""
+    link: "https://crud-php-nu.vercel.app/",
+    gitHub: "https://github.com/anasscodes/php-crud"
   },
   {projectTitle: " TODOLIST-Php" , 
     proSubTitle: 
     "To-Do-List in PHP lets users manage tasks (add,view,complete,delete) with PHP handling logic and MySQL storing the data.",
     category: ["express"] , 
     imgPath: "./images/Screenshot php.png",
-    link: "",
-    gitHub: ""
+    link: "https://todolist-php-beta.vercel.app/",
+    gitHub: "https://github.com/anasscodes/Todolist-php"
   }
 
 ];
