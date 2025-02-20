@@ -54,5 +54,21 @@ export const myProjects = [
     link: "https://countries-flame-six.vercel.app/",
     gitHub: "https://github.com/anasscodes/provider-react"
   },
-  // {projectTitle: "Node & Express project" , category: ["express"] , imgPath: "h"}
+  {projectTitle: " Crud-PHP" , 
+    proSubTitle: 
+    "PHP handles the logic for these actions, while MySQL stores and retrieves the data. It forms the foundation for dynamic web apps",
+    category: ["express"] , 
+    imgPath: "./images/Screenshot php2.png",
+    link: "",
+    gitHub: ""
+  },
+  {projectTitle: " TODOLIST-Php" , 
+    proSubTitle: 
+    "To-Do-List in PHP lets users manage tasks (add,view,complete,delete) with PHP handling logic and MySQL storing the data.",
+    category: ["express"] , 
+    imgPath: "./images/Screenshot php.png",
+    link: "",
+    gitHub: ""
+  }
+
 ];

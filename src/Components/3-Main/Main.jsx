@@ -40,7 +40,7 @@ const Main = () => {
          
           <button onClick={() => {setActive("react"); handleClick("react")}} className={active === "react" ? "active" : null}>React & BTS</button>
           
-          <button onClick={() => {setActive("node"); handleClick("express")}} className={active === "node" ? "active"  : null}>Php & Express</button>
+          <button onClick={() => {setActive("node"); handleClick("express")}} className={active === "node" ? "active"  : null}>PHP & </button>
 
         </section>
 
