@@ -95,9 +95,9 @@ const Header = () => {
                    }}/> 
                 </li>
                 <li><a href="">About</a></li>
-                {/* <li><a href="">Articles</a></li> */}
+               
                 <li><a href="#art">Projects</a></li>
-                {/* <li><a href="">Speaking</a></li> */}
+               
                 <li><a href="#us">Contact Us</a></li>
               </ul>
             
