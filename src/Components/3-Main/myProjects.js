@@ -9,13 +9,22 @@ export const myProjects = [
     link: "https://portfolio-kohl-five-91.vercel.app/",
     gitHub: "https://github.com/anasscodes/my-react-vite-app"
   },
+   {
+    projectTitle: "alphaClean",
+    proSubTitle: 
+    "Modern cleaning platform. Book easily, explore services, and manage your account. Fast, user-friendly experience.",
+    category: ["react"],
+    imgPath: "./images/alpha.png",
+    link: "alpha-clean.vercel.app",
+    gitHub: "https://github.com/anasscodes/alphaClean"
+  },
   {
     projectTitle: "Travel MTN ",
     proSubTitle: 
     "In site Travel-Mtn Find amazing destinations, travel tips, and easy booking all in one place. Your next adventure starts here!",
     category: ["css"],
     imgPath: "./images/Screenshot 1.png",
-    link: "",
+    link: "https://beautiful-heliotrope-230110.netlify.app/",
     gitHub: "https://github.com/anasscodes/travelmtn"
   },
   {
@@ -53,6 +62,14 @@ export const myProjects = [
     imgPath: "./images/Screenshot 5.png",
     link: "https://countries-flame-six.vercel.app/",
     gitHub: "https://github.com/anasscodes/provider-react"
+  },
+  {projectTitle: "Mini Store" , 
+    proSubTitle: 
+    "Simple e-commerce site: browse products, manage cart, place orders. PHP backend, MySQL database. Includes CRUD, login, sessions.",
+    category: ["express"] , 
+    imgPath: "./images/ecoFront.png",
+    link: "",
+    gitHub: "https://github.com/anasscodes/Mini_Ecommerce"
   },
   {projectTitle: " Crud-PHP" , 
     proSubTitle: 
