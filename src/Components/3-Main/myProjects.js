@@ -15,7 +15,7 @@ export const myProjects = [
     "Modern cleaning platform. Book easily, explore services, and manage your account. Fast, user-friendly experience.",
     category: ["react"],
     imgPath: "./images/alpha.png",
-    link: "alpha-clean.vercel.app",
+    link: "https://alpha-clean.vercel.app/",
     gitHub: "https://github.com/anasscodes/alphaClean"
   },
   {
