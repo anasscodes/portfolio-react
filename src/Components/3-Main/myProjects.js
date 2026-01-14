@@ -1,14 +1,24 @@
 
 export const myProjects = [
+  // {
+  //   projectTitle: "Portfolio ",
+  //   proSubTitle:
+  //   "Portfolio built with ReactJS and CSS, showcasing responsive designs and interactive, user-friendly web experiences.",
+  //   category: ["react"],
+  //   imgPath: "./images/Screenshot 6.png",
+  //   link: "https://portfolio-kohl-five-91.vercel.app/",
+  //   gitHub: "https://github.com/anasscodes/my-react-vite-app"
+  // },
   {
-    projectTitle: "Portfolio ",
-    proSubTitle:
-    "Portfolio built with ReactJS and CSS, showcasing responsive designs and interactive, user-friendly web experiences.",
+    projectTitle: "education",
+    proSubTitle: 
+    "Modern education platform. Learn easily, explore courses, and track your progress. Fast, interactive experience.",
     category: ["react"],
-    imgPath: "./images/Screenshot 6.png",
-    link: "https://portfolio-kohl-five-91.vercel.app/",
-    gitHub: "https://github.com/anasscodes/my-react-vite-app"
+    imgPath: "/images/education.png",
+    link: "https://education-by-react.vercel.app/",
+    gitHub: "https://github.com/anasscodes/education-By-react"
   },
+
    {
     projectTitle: "alphaClean",
     proSubTitle: 

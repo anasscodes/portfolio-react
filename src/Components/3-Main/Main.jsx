@@ -17,7 +17,7 @@ const Main = () => {
 
                 const frr =  item.category.find((myItem) => {
                       return myItem === buttonCategory;
-                 })
+                })
 
               return frr ===buttonCategory;
             })  
